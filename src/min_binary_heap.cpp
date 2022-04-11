@@ -43,7 +43,7 @@ namespace assignment {
       data_[size_].key = key;
       data_[size_].value = value;
       size_++;
-      sift_up(size_);
+      sift_up(size_ - 1);
       return true;
     }
 
